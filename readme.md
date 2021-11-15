@@ -1,6 +1,6 @@
 # Choose Your Own Adventure!
 
-For this lab, we'll be using most everything we've learned on JavaScript so far. Your task will to be create a Choose-Your-Own-Adventure-style game. Choose Your Own Adventure, for those who have never heard of it, was a genre of books that would address the reader in the second person and prompt them to make different choices.
+For this hw, we'll be using most everything we've learned on JavaScript so far. Your task will to be create a Choose-Your-Own-Adventure-style game. Choose Your Own Adventure, for those who have never heard of it, was a genre of books that would address the reader in the second person and prompt them to make different choices.
 
 > **Example**
 > *You are walking down the road and a hungry-looking dog comes up to you, sniffing for treats. You have a cracker wrapped in plastic in your pocket. Do you feed the dog?*
