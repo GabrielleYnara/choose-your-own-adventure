@@ -3,7 +3,7 @@ const responses = ["You woke up in your spaceship room amidst alarms and blinkin
 
 function intro (){
     alert("Welcome, traveler!\n\n"
-        + "You're about to embark on a 'choose your own adventure' journey.\n"
+        + "You are about to embark on a 'choose your own adventure' journey.\n"
         + "At each step, you'll be given multiple choices.\n"
         + "To make a choice, simply enter the letter corresponding to your decision.\n"
         + "Good luck and enjoy your adventure!");
@@ -11,7 +11,7 @@ function intro (){
 }
 
 function firstQuestion () {
-    let response = prompt("You wake up in your room inside of a space ship. \n"
+    let response = prompt("You wake up in your room inside of a spaceship. \n"
         + "You're still drowsy, the alarms are blaring off and there are red lights blinking everywhere telling you there's something wrong. \n"
         + "To find out what's happening, you step out of your room to: \n\n"
         + "a) Search for other crew members, hoping for answers or assistance.\n"
@@ -35,7 +35,7 @@ function secondQuestion () {
     + "You soon reach a bifurcation. Two pathways lie before you:\n\n"
     + "a) Head towards the engine room. \n"
     + "\tThe heart of the ship might hold clues or crew members who can help explain the situation.\n"
-    + "b) Make your way to the cafeteria. \n"
+    + "b) Venture towards the cafeteria.\n"
     + "\tIt's mealtime, and there's a good chance you might find someone there.");
 
 
@@ -47,7 +47,7 @@ function secondQuestion () {
         //End 1
         responses.push("You headed towards the cafeteria, hoping to find someone.");
         responses.push("While in the cafeteria, the engine room was consumed by a raging fire, leading to a catastrophic explosion.");
-        alert("As you scour the cafeteria, a raging fire had been consuming the engine room. \n"
+        alert("As you search the cafeteria, a raging fire had been consuming the engine room. \n"
             + "Without anyone to shut off the fuel supply in time, the fire feasts upon it, culminating in a devastating explosion that rocks the very core of the spaceship.");
         gameOver();
     } else {
@@ -64,7 +64,7 @@ function thirdQuestion () {
         + "a) Try to reboot the ventilation system to clear the smoke and buy yourself some time.\n"
         + "b) Try to resolve the blinking warnings on the control panel.");
 
-    if (response,toLowerCase() === "a"){
+    if (response.toLowerCase() === "a"){
         //End 2
         responses.push("In the engine room, you activated the ventilation system, clearing the smoke.");
         responses.push("Using the fire extinguisher, you battled the flames and secured the ship's safety.");
@@ -74,7 +74,7 @@ function thirdQuestion () {
         gameOver();
     } else {
         //End 3
-        responses,push("Braving the flames, you rushed to the control panel, sustaining burns but successfully cutting off the fuel supply.");
+        responses.push("Braving the flames, you rushed to the control panel, sustaining burns but successfully cutting off the fuel supply.");
         alert("Rushing straight to the control panel, the intense heat singed your skin, causing several painful burns.\n"
             + "Despite the pain and thick smoke making it hard to breathe, you managed to cut off the fuel supply, preventing a catastrophic explosion.\n"
             + "With the immediate danger averted, you then put out the remaining flames. However, the ordeal has left you weakened and in need of medical attention.")
@@ -83,7 +83,7 @@ function thirdQuestion () {
 }
 
 function fourthQuestion() {
-    let response = prompt("Once at the cockpit, you run a diagnostic scan and find out there's a fire raging in the engine room. \n"
+    let response = prompt("Reaching the cockpit, you run a diagnostic scan and find out there's a fire raging in the engine room. \n"
         + "Panic and adrenaline flood your system as you realize the imminent danger.\n\n"
         + "You're faced with a split-second decision:\n\n"
         + "a) Shut down the fuel immediately and rush to the engine room to extinguish the fire.\n"
